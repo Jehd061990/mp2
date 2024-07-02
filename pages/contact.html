@@ -1,0 +1,159 @@
+<!-- <h3>Contact Us</h3>
+          Have a question, suggestion, or just want to say hello? We'd love to
+          hear from you! Reach out to us through our
+          <a href="">Contact Page </a>or connect with us on social media. Thank
+          you for being a part of the FoodGallery family. Let's cook, create,
+          and savor the flavors of life together! -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- external JS -->
+    <!-- <script src="../js/observer.js"></script> -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="../js/navbar.js"></script>
+
+    <!-- external CSS -->
+    <link rel="stylesheet" href="../css/pages.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="../img/logo.png" type="image/x-icon" />
+
+    <title>Contact</title>
+  </head>
+  <body class="contact">
+    <div class="dark-bg"></div>
+    <!-- Nav Bar -->
+
+    <nav class="navbar navbar-expand-sm">
+      <div class="navbar-bg"></div>
+      <div class="container-fluid nav-blur">
+        <a class="navbar-brand" href="../index.html">FoodGallery</a>
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#site_navbar"
+          id="nv-tog"
+        >
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <!-- <div id="tog-icon"></div> -->
+          <div class="top"></div>
+          <div class="middle"></div>
+          <div class="bottom"></div>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end me-3"
+          id="site_navbar"
+        >
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="events.html">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="active" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Nav Bar end -->
+
+    <div class="contact-section">
+      <div class="content container">
+        <h3>
+          Have a question, suggestion, or just want to say hello? We'd love to
+          hear from you!
+        </h3>
+
+        <form class="row flex-column-reverse flex-sm-row h-100">
+          <div class="col-sm-6 left">
+            <div class="top-left">
+              <div class="contact-icons">
+                <img src="../img/phone-icon.svg" alt="" />
+                <span>(082)221-1122</span>
+              </div>
+              <div class="contact-icons">
+                <img src="../img/cp-icon.svg" alt="" />
+                <span>+639564578958</span>
+              </div>
+              <div class="contact-icons">
+                <img src="../img/email-icon.svg" alt="" />
+                <span>sample@gmail.com</span>
+              </div>
+            </div>
+            <div class="bottom-left mt-5">
+              <a href="https://www.facebook.com/"
+                ><img src="../img/fb-icon.svg" alt=""
+              /></a>
+              <a href="https://www.messenger.com/"
+                ><img src="../img/messenger-icon.svg" alt=""
+              /></a>
+              <a href="https://twitter.com/"
+                ><img src="../img/twitter-icon.svg" alt=""
+              /></a>
+            </div>
+          </div>
+          <div class="col-sm-6 mb-5 right">
+            <label for="basic-url" class="form-label">EMAIL</label>
+            <div class="input-group mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="basic-url"
+                aria-describedby="basic-addon3"
+              />
+            </div>
+
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label"
+                >MESSAGE</label
+              >
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+              ></textarea>
+            </div>
+            <div class="d-flex justify-content-end mb-5">
+              <button class="btn btn-primary" id="send-btn">Send</button>
+            </div>
+          </div>
+          <footer>
+            <p>Copyright © MP2 Alrights Reserved.</p>
+            <div class="footer-bg"></div>
+          </footer>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
